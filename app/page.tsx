@@ -1,4 +1,3 @@
-"use client";
 import CarCard from "@/components/CarCard";
 import Hero from "@/components/Hero";
 import SearchBar from "@/components/SearchBar";
