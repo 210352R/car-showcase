@@ -5,13 +5,14 @@ import React from "react";
 export default function CustomButton({
   title,
   containerStyles,
+  btnType,
   textStyles,
   handleClick,
 }: CustomButtonProps) {
   return (
     <button
       disabled={false}
-      type={"button"}
+      type={btnType || "button"}
       className={`custom-btn ${containerStyles}`}
       onClick={handleClick}
     >
